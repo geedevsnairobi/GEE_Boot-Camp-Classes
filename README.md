@@ -6,10 +6,11 @@
       <ul>
         <li><a href="#Hellow">1a01-1a01-Hello_World with JS</a></li>
       </ul>
-    
-      <ul>
-        <li><a href="#Image_Collection">1a02-Image_Collection_Preprocessing</a></li>
+
+    <ul>
+        <li><a href="#Image_Collection">1a02-1a02-Image_Collection_Preprocessing</a></li>
       </ul>
+      
       <ul>
         <li><a href="#Image_Filtering">1a03-Filtering_Image_Collection</a></li>
       </ul>
