@@ -2,12 +2,12 @@
 <h2>Table of Content</h2>
   <ol>
     <li>
-      <a href="#EE_Basics">01a-EE_Basics</a>
+      <a href="#EE_Basics">1a-EE_Basics</a>
       <ul>
-        <li><a href="#Hello_World">Hello_World with JS</a></li>
+        <li><a href="#Hello_World">1a01Hello_World with JS</a></li>
       </ul>
       <ul>
-        <li><a href="#Step 2.">Step 2: Generation of the training samples</a></li>
+        <li><a href="#Image_Collection">1a02Image_Collection_Preprocessing</a></li>
       </ul>
       <ul>
         <li><a href="#Step 3.">Step 3: Training the ML Model for Classification</a></li>
