@@ -25,8 +25,6 @@
       </ul>
  <li>
 
-
-   
       <a href="#EE_Intermediate">2b-EE_Intermediate</a>
       <ul>
         <li><a href="#EE_Functions">2b01-EE_Functions</a></li>
@@ -46,7 +44,7 @@
    <ul>
         <li><a href="#Area_Calculation">2b06-Area_Calculation</a></li>
       </ul>
-  
+  </li>
   <li>
       <a href="#Supervised_Classification">3c-Supervised_Classification</a>
       <ul>
@@ -58,6 +56,7 @@
       <ul>
         <li><a href="#Classification_Exporting">4c03-Exporting_Model_Results</a></li>
       </ul>
+  </li>
     <li>
       <a href="#Plotting">4c-EE_Charts</a>
       <ul>
@@ -69,7 +68,7 @@
       <ul>
         <li><a href="#Area_Chart">4c03-Area_Charts</a></li>
       </ul>
-
+    </li>
  <li>
       <a href="#UI">5c-EE_Panel</a>
       <ul>
