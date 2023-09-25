@@ -1,6 +1,20 @@
 # GEE_Study_Jam
 <h2>Table of Content</h2>
   <ol>
+
+ <li>
+      <a href="#UI1">1c-EE_Panel</a>
+      <ul>
+        <li><a href="#UI_Elements">5a01-UI_Elements</a></li>
+      </ul>
+      <ul>
+        <li><a href="#App_Widgets">5b02-App_Widgets</a></li>
+      </ul>
+      <ul>
+        <li><a href="#App_Publishing">5c03-App_Publishing</a></li>
+      </ul>
+ </li>
+    
     <li>
       <a href="#EE_Basics">1a-EE_Basics</a>
       
@@ -24,7 +38,6 @@
         <li><a href="#Image_Filtering">1a03-Filtering_Image_Collection</a></li>
       </ul>
  <li>
-
       <a href="#EE_Intermediate">2b-EE_Intermediate</a>
       <ul>
         <li><a href="#EE_Functions">2b01-EE_Functions</a></li>
@@ -40,10 +53,6 @@
       </ul>
          <ul>
         <li><a href="#Reducers">2b05-EE_Reducers</a></li>
-      </ul>
-      
-      <ul>
-        <li><a href="#Area_Calculation1">2b06-Area_Calculation1</a></li>
       </ul>
    <ul>
         <li><a href="#Area_Calculation">2b06-Area_Calculation</a></li>
@@ -84,3 +93,5 @@
       <ul>
         <li><a href="#App_Publishing">5c03-App_Publishing</a></li>
       </ul>
+ </li>
+    
