@@ -3,40 +3,18 @@
   <ol>
 
  <li>
-      <a href="#UI1">1c-EE_Panel</a>
-      <ul>
-        <li><a href="#UI_Elements">5a01-UI_Elements</a></li>
-      </ul>
-      <ul>
-        <li><a href="#App_Widgets">5b02-App_Widgets</a></li>
-      </ul>
-      <ul>
-        <li><a href="#App_Publishing">5c03-App_Publishing</a></li>
-      </ul>
- </li>
-    
-    <li>
       <a href="#EE_Basics">1a-EE_Basics</a>
-      
       <ul>
         <li><a href="#Hellow">1a01-1a01-Hello_World with JS</a></li>
       </ul>
-
       <ul>
-        <li><a href="#Hellow">1a01-1a01-Hello_World with JS2</a></li>
-      </ul>
-
-       <ul>
-        <li><a href="#Hellow">1a01-1a01-Hello_World with JS3</a></li>
-      </ul>
-      
-    <ul>
         <li><a href="#Image_Collection">1a02-1a02-Image_Collection_Preprocessing</a></li>
       </ul>
-      
       <ul>
         <li><a href="#Image_Filtering">1a03-Filtering_Image_Collection</a></li>
       </ul>
+ </li>
+    
  <li>
       <a href="#EE_Intermediate">2b-EE_Intermediate</a>
       <ul>
