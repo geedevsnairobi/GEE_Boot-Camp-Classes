@@ -1,6 +1,5 @@
 # GEE_Study_Jam
-<!-- TABLE OF CONTENTS -->
-
+<h1>Table of Content</h1>
   <summary>Table of Contents</summary>
   <ol>
     <li>
