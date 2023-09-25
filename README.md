@@ -4,9 +4,9 @@
     <li>
       <a href="#EE_Basics">1a-EE_Basics</a>
       <ul>
-        <li><a href="https://github.com/geedevsnairobi/GEE_Study_Jam/blob/main/01_Average_Topographic_Features">1a01-Hello_World with JS</a></li>
-       
+        <li><a href="#Hellow">1a01-1a01-Hello_World with JS</a></li>
       </ul>
+    
       <ul>
         <li><a href="#Image_Collection">1a02-Image_Collection_Preprocessing</a></li>
       </ul>
