@@ -4,23 +4,27 @@
     <li>
       <a href="#EE_Basics">1a-EE_Basics</a>
       <ul>
-        <li><a href="#Hello_World">1a01Hello_World with JS</a></li>
+        <li><a href="#Hello_World">1a01-Hello_World with JS</a></li>
       </ul>
       <ul>
-        <li><a href="#Image_Collection">1a02Image_Collection_Preprocessing</a></li>
+        <li><a href="#Image_Collection">1a02-Image_Collection_Preprocessing</a></li>
       </ul>
       <ul>
-        <li><a href="#Image_Filtering">Filtering_Image_Collection</a></li>
+        <li><a href="#Image_Filtering">1a03-Filtering_Image_Collection</a></li>
+      </ul>
+      <li>
+      <a href="#EE_Intermediate">2b-EE_Intermediate</a>
+      <ul>
+        <li><a href="#EE_Functions">2b01-EE_Functions</a></li>
       </ul>
       <ul>
-        <li><a href="#Step 4.">Step 4: Visualization of the classified image</a></li>
+        <li><a href="#Indices_Calculations">2b02-Indices_Calculations</a></li>
       </ul>
       <ul>
-        <li><a href="#Step 5.">Step 5: Change Detection</a></li>
+        <li><a href="#Image_Computation">2b03-Image_Collection_Computation</a></li>
       </ul>
-      <ul>
-        <li><a href="#Step 6.">Step 6: Area computation for each LULC Classes</a></li>
-      </ul>      
+
+     
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
