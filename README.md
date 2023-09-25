@@ -10,7 +10,7 @@
         <li><a href="#Image_Collection">1a02Image_Collection_Preprocessing</a></li>
       </ul>
       <ul>
-        <li><a href="#Step 3.">Step 3: Training the ML Model for Classification</a></li>
+        <li><a href="#Image_Filtering">Filtering_Image_Collection</a></li>
       </ul>
       <ul>
         <li><a href="#Step 4.">Step 4: Visualization of the classified image</a></li>
