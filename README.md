@@ -2,15 +2,9 @@
 <h2>Table of Content</h2>
   <ol>
     <li>
-      <a href="#about-the-project">Problem Statement</a>
-    </li>
-    <li>
-      <a href="#Case Study">LULC-Case Study</a>
-    </li>
-    <li>
-      <a href="#Project Work Flow">Project Work Flow</a>
+      <a href="#EE_Basics">01a-EE_Basics</a>
       <ul>
-        <li><a href="#Step 1.">Step 1. Data collection and preprocessing</a></li>
+        <li><a href="#Hello_World">Hello_World with JS</a></li>
       </ul>
       <ul>
         <li><a href="#Step 2.">Step 2: Generation of the training samples</a></li>
