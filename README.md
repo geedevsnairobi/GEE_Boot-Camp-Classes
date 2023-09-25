@@ -1,6 +1,5 @@
 # GEE_Study_Jam
-<h1>Table of Content</h1>
-  <summary>Table of Contents</summary>
+<h2>Table of Content</h2>
   <ol>
     <li>
       <a href="#about-the-project">Problem Statement</a>
