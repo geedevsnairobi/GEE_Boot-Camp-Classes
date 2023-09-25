@@ -29,10 +29,10 @@
          <ul>
         <li><a href="#Reducers">2b05-EE_Reducers</a></li>
       </ul>
-         <ul>
+   <ul>
         <li><a href="#Area_Calculation">2b06-Area_Calculation</a></li>
       </ul>
-   
+  
   <li>
       <a href="#Supervised_Classification">3c-Supervised_Classification</a>
       <ul>
