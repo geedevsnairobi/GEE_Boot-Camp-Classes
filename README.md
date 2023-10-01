@@ -3,6 +3,9 @@
   <ol>
 
  <li>
+   
+      <li><a href="#Creating a Cloud Project">0000-0000-Creating a Cloud Project</a></li>
+      
       <a href="#EE_Basics">1a-EE_Basics</a>
       <ul>
         <li><a href="#Hellow">1a01-1a01-Hello_World with JS</a></li>
