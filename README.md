@@ -5,7 +5,7 @@
 - Introduction
   - [Creating a Cloud Project](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/Creating%20a%20Cloud%20Project)
     
-  - [EE_Basics](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
+  - [Getting_Started](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
      - [Youtube Video](https://www.youtube.com/channel/UCggohTWwWZBRWecDLsvqiyg)
   - [Image_Collection]()
   - [Image_Filtering]()
