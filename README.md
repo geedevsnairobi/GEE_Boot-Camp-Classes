@@ -35,9 +35,12 @@
   - Deploying EE Apps
 
 Authors:
+
+
   <a href="https://github.com/geedevsnairobi/GEE_Study_Jam/graphs/contributors">
+     <img src="https://media.licdn.com/dms/image/C4D03AQGsRi9pJ8SZEg/profile-displayphoto-shrink_200_200/0/1584415555715?e=1702512000&v=beta&t=gvX9G5mPVg5uRGzoehlAXHJZOR9iYruZ_lUhm78xOiQ" width=100 style="border-radius:50%"/>
  <img src="https://avatars.githubusercontent.com/u/55980747?v=4" width=100 style="border-radius:50%"/>
-  <img src="https://media.licdn.com/dms/image/C4D03AQGsRi9pJ8SZEg/profile-displayphoto-shrink_200_200/0/1584415555715?e=1702512000&v=beta&t=gvX9G5mPVg5uRGzoehlAXHJZOR9iYruZ_lUhm78xOiQ" width=100 style="border-radius:50%"/>
+
   <img src="https://media.licdn.com/dms/image/D4D03AQFnMLneacygcw/profile-displayphoto-shrink_200_200/0/1677416062628?e=1702512000&v=beta&t=fTsMioRPJ3UCZfoI3Iq3jdCZBZhE4gO6nM3nYFMagdM" width=100 style="border-radius:50%"/>
  </a>
  
