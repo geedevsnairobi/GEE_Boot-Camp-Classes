@@ -1,5 +1,34 @@
-# GEE_Study_Jam
-<h2>Table of Content</h2>
+# GEE_Study_Jam 
+ ------------------
+## Table of Content
+## Bootcamp Classes
+- Introduction
+  - [Creating a Cloud Project](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/Creating%20a%20Cloud%20Project)
+    
+  - [EE_Basics](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
+     - [Youtube Video](https://www.youtube.com/channel/UCggohTWwWZBRWecDLsvqiyg)
+  - [Image_Collection]()
+  - [Image_Filtering]()
+  
+- EE_Intermediate
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <ol>
 
  <li>
