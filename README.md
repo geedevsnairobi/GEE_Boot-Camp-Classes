@@ -11,97 +11,34 @@
   - [Image_Projection]()
   
 - EE_Intermediate
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <ol>
+  - Creating GEE Functions
+  - Working with EE Inbuilt Functions
+  - Working with EE Reducers
+  - Tuning EE Reducer Parameters
+  - Creating and Working with FeatureCollection
+  - Image Computation and Area Calculation
+  - Cloud Masking
+- EE_Competence
+  - Band Extraction, Calculation and Renaming
+  - Adding Extenal data to Image Bands
+  - Exporting Imagges 
+  - Creating EE Charts
+- Introduction to Geospatial Data Science-Machine Learning Techniques
+  - Basic of Machine Learning
+  - Implementation Techniques
+  - Hyperparameter Tuning and Data Validation
+  - Model Accuracy Assessment
+- Creating EE Apps
+  - Understanding Widgets and Panels
+  - Creating Buttons
+  - Styling App UI
+  - Deploying EE Apps
 
- <li>
-   
-      <li><a href="#Creating a Cloud Project">0000-0000-Creating a Cloud Project</a></li>
-      
-      <a href="#EE_Basics">1a-EE_Basics</a>
-      <ul>
-        <li><a href="#Hellow">1a01-1a01-Hello_World with JS</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Image_Collection">1a02-1a02-Image_Collection_Preprocessing</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Image_Filtering">1a03-Filtering_Image_Collection</a></li>
-      </ul>
- </li>
-    
- <li>
-      <a href="#EE_Intermediate">2b-EE_Intermediate</a>
-      <ul>
-        <li><a href="#EE_Functions">2b01-EE_Functions</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Indices_Calculations">2b02-Indices_Calculations</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Image_Computation">2b03-Image_Collection_Computation</a></li>
-      </ul>
-         <ul>
-        <li><a href="#Cloud_Masking">2b04-Cloud_Masking</a></li>
-      </ul>
-         <ul>
-        <li><a href="#Reducers">2b05-EE_Reducers</a></li>
-      </ul>
-   <ul>
-        <li><a href="#Area_Calculation">2b06-Area_Calculation</a></li>
-      </ul>
-  </li>
-  <li>
-      <a href="#Supervised_Classification">3c-Supervised_Classification</a>
-      <ul>
-        <li><a href="#RF_Model">3c01-EE_Random_Forest_Model</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Model_Finetuning">3c02-RF_Model_Finetuning</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Classification_Exporting">4c03-Exporting_Model_Results</a></li>
-      </ul>
-  </li>
-    <li>
-      <a href="#Plotting">4c-EE_Charts</a>
-      <ul>
-        <li><a href="#Time_Series_Chart">4a01-Time_Series_Charts</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Bar_Chart">4b02-Bar_Charts</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Area_Chart">4c03-Area_Charts</a></li>
-      </ul>
-    </li>
- <li>
-      <a href="#UI">5c-EE_Panel</a>
-      <ul>
-        <li><a href="#UI_Elements">5a01-UI_Elements</a></li>
-      </ul>
-      <ul>
-        <li><a href="#App_Widgets">5b02-App_Widgets</a></li>
-      </ul>
-      <ul>
-        <li><a href="#App_Publishing">5c03-App_Publishing</a></li>
-      </ul>
- </li>
+Authors:
+  <a href="https://github.com/geedevsnairobi/GEE_Study_Jam/graphs/contributors">
+ <img src="https://avatars.githubusercontent.com/u/55980747?v=4" width=100 style="border-radius:50%"/>
+  <img src="https://media.licdn.com/dms/image/C4D03AQGsRi9pJ8SZEg/profile-displayphoto-shrink_200_200/0/1584415555715?e=1702512000&v=beta&t=gvX9G5mPVg5uRGzoehlAXHJZOR9iYruZ_lUhm78xOiQ" width=100 style="border-radius:50%"/>
+  <img src="https://media.licdn.com/dms/image/D4D03AQFnMLneacygcw/profile-displayphoto-shrink_200_200/0/1677416062628?e=1702512000&v=beta&t=fTsMioRPJ3UCZfoI3Iq3jdCZBZhE4gO6nM3nYFMagdM" width=100 style="border-radius:50%"/>
+ </a>
+ 
     
