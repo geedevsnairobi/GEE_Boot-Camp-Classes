@@ -7,8 +7,8 @@
     
   - [Getting_Started](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
      - [Youtube Video](https://www.youtube.com/channel/UCggohTWwWZBRWecDLsvqiyg)
-  - [Image_Collection]()
-  - [Image_Filtering]()
+  - [Image_Collection and Filtering]()
+  - [Image_Projection]()
   
 - EE_Intermediate
   
