@@ -6,6 +6,7 @@
   - [Creating a Cloud Project](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/Creating%20a%20Cloud%20Project)
   - [Getting_Started](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
      - [Youtube Video](https://www.youtube.com/channel/UCggohTWwWZBRWecDLsvqiyg)
+     - [Article](https://dev.to/geedevs-nairobi/creating-an-earth-engine-cloud-project-4gja)
   - [Image_Collection and Filtering]()
   - [Image_Projection]()
   
