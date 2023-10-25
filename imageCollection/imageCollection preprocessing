@@ -1,0 +1,89 @@
+//////////// This code is an advanced technique to address all the preprocessing steps of imageCollection
+
+//Load Image//////////////////////////
+//var roi = ee.Geometry.Point(-122.373, 37.448)
+var Landsat8 = ee.ImageCollection('LANDSAT/LC08/C02/T1_TOA')
+                .filterDate('2016-01-01', '2016-12-31')
+                .filterBounds(roi);
+var dataset = Landsat8.select(['B4', 'B3', 'B2']);              
+// Define visualization parameters
+var visParams = {
+bands: ['B4', 'B3', 'B2'], 
+min: 0.0,
+max: 0.4};
+
+Map.setCenter(36.90966120185066,-1.2781566341946728, 6);
+Map.addLayer(dataset, visParams, 'Image before reduction is done');
+
+/////////////// Reducers of the image ///////////////////
+// Get the median,mean,max,min,sum,product over time, in each band, in each pixel.
+var median = dataset.median();
+Map.addLayer(median, visParams, ' Median Reduction');
+
+var mean = dataset.mean();
+Map.addLayer(mean, visParams, ' mean Reduction');
+
+var max = dataset.max();
+Map.addLayer(max, visParams, ' Max Reduction');
+
+var min = dataset.min();
+Map.addLayer(min, visParams, ' min Reduction');
+
+var sum = dataset.sum();
+Map.addLayer(sum, visParams, ' sun Reduction');
+
+var product = dataset.product();
+Map.addLayer(product, visParams, ' product Reduction');
+
+// //////////////////////////////////////////////
+// Time to mosaic 
+var mosaicing = dataset.mosaic();
+
+// Display the median imageColle after mosaicing.
+Map.addLayer(mosaicing, visParams, 'This is mosaiced Image');
+
+// print(mosaicing.projection());
+
+//////////////////// Reprojection
+// Operations *before* the reproject call will be done in the projection
+// specified by reproject().  The output results in another reprojection.
+ var reprojected = median
+     .unitScale(-2000, 10000)
+     .reproject('EPSG:4326', null, 500);
+    
+ print(reprojected.projection(),'Reprojected')
+
+ Map.addLayer(reprojected, {min: 0.15, max: 0.7}, 'Reprojected Image');
+
+// Exporting 
+// Export the image, specifying the CRS, transform, and region.
+Export.image.toDrive({
+  image: median,
+  description: 'imageToDriveExample_transform',
+  crs: reprojected.crs,
+  crsTransform: reprojected.transform,
+  region: roi
+});
+
+// Migrating to cloud 
+// Export the image to Cloud Storage.
+ Export.image.toCloudStorage({
+   image: median,
+   description: 'imageToCloudExample',
+   bucket: 'your-bucket-name',
+   fileNamePrefix: 'exampleExport',
+   crs: reprojected.crs,
+   crsTransform: reprojected.transform,
+   region: roi
+ });
+
+// Export the image to an Earth Engine asset.
+ Export.image.toAsset({
+  image: median,
+  description: 'imageToAssetExample',
+  assetId: 'exampleExport',
+  crs: reprojected.crs,
+  crsTransform: reprojected.transform,
+  region: roi,
+});
+
