@@ -8,7 +8,7 @@
   - [Getting_Started](https://github.com/geedevsnairobi/GEE_Study_Jam/tree/main/EE_Basics)
      - [Youtube Video](https://www.youtube.com/channel/UCggohTWwWZBRWecDLsvqiyg)
   - [Image_Collection and Filtering](https://github.com/geedevsnairobi/GEE_Study_Jam/blob/main/imageCollection/basics)
-  - [Image_Preprocessing]()
+  - [Image_Preprocessing](https://github.com/geedevsnairobi/GEE_Study_Jam/blob/main/imageCollection/imageCollection%20preprocessing)
   
 - EE_Intermediate
   - Creating GEE Functions
