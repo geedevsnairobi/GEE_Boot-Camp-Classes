@@ -1,1 +1,63 @@
+//////////////////This code is a technical implementation of imageCollection//////////
+// Define a Region in Nairobi
+var roi = ee.Geometry.Rectangle([-83, 24, -79, 27.5]);
+
+var dat = ee.ImageCollection("LANDSAT/LC8_L1T")
+// get image collection for 2018-20
+var dataset = ee.ImageCollection('MODIS/006/MOD13A2')
+                  //Filter dates
+                  .filter(ee.Filter.date('2018-01-01', '2020-12-31'))
+                  //Fileter bounds 
+                  .filterBounds(dataset)
+// print image collection to console
+print(dataset)   
+
+//Let's say we want to filter our imageCollection by mean
+var first = dataset.mean(); //
+print(first);
+
+//Let's say we want count the number of images in our collection
+// select NDVI band
+var ndvi = dataset.select('NDVI');
+// convert to list
+var ndviList = ndvi.toList(ndvi.size());
+print(ndviList)
+
+var count = dataset.size();
+print(count);
+
+// // get statistics  for a image coll
+var Stats = dataset.aggregate_stats('SUN_ELEVATION');
+print(Stats);
+
+// Filter by cloud cover
+// var image = ee.Image(coll2.sort('CLOUD_COVER').first());
+// var mean1 = .mean()
+// var max1 = .max()
+// var mode =  .mode()
+// print('Least cloud image:', image);
+// print('')
+
+// Limit collection to the 10 most recent images
+var recent = dataset.sort('systemt:time_start', false).limit(10); // limit to top 10 images
+print('Recent image:', recent);
+
+// clip to roi
+var ndviImage = ndviImage.clip(roi);
+// define visualization parameters
+var ndviVis = {
+  bands: 'NDVI',
+  min: -2000,
+  max: 10000,
+  palette: [
+    '000000', 'CE7E45', 'DF923D', 'F1B555', 'FCD163', '99B718', '74A901',
+    '66A000', '529400', '3E8601', '207401', '056201', '004C00', '023B01',
+    '012E01', '011D01', '011301'
+  ],
+};
+
+// make map
+Map.addLayer(ndviImage, ndviVis, 'NDVI Image'); 
+Map.setCenter(-80.5, 26, 8); 
+
 
