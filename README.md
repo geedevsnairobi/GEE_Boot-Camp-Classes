@@ -13,11 +13,8 @@
 - EE_Intermediate
   - Creating GEE Functions
   - Working with EE Inbuilt Functions
-  - Working with EE Reducers
-  - Tuning EE Reducer Parameters
-  - Creating and Working with FeatureCollection
+  - Deep dive into exploring FeatureCollections
   - Image Computation and Area Calculation
-  - Cloud Masking
 - EE_Competence
   - Band Extraction, Calculation and Renaming
   - Adding Extenal data to Image Bands
