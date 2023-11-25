@@ -1,1 +1,105 @@
 
+// Make a feature with some properties.
+var feature = ee.Feature(ee.Geometry.Point([37.393616042129715, -0.012801305697836253]))
+  .set('County', 'Meru').set('Meru1', 'Settings');
+// Print our feature
+print(feature);
+// //Map.addLayer(feature)
+
+// Creating Nairobi Polygon with Geometries
+var Nairobi = 
+ee.Geometry.Polygon(
+        [[[36.668518385879715, -1.2396225227250073],
+          [36.695984206192215, -1.354380436474334],
+          [36.822326979629715, -1.3928215346108865],
+          [36.915710768692215, -1.359872059659389],
+          [36.978882155410965, -1.313192869399109],
+          [36.976135573379715, -1.2829882209698302],
+          [37.028320631973465, -1.2994635284940157],
+          [37.075012526504715, -1.3077011420427207],
+          [37.105224928848465, -1.2610209794600944],
+          [37.061279616348465, -1.2061020716359079],
+          [36.998108229629715, -1.2390535525537143],
+          [36.970642409317215, -1.2170859434783168],
+          [36.918457350723465, -1.2115940131238145],
+          [36.885498366348465, -1.1841341953591218],
+          [36.836059889785965, -1.2061020716359079],
+          [36.792114577285965, -1.1951181554616812],
+          [36.745422682754715, -1.228069770585397],
+          [36.701477370254715, -1.2610209794600944]]]);
+
+print (Nairobi)
+Map.addLayer(Nairobi)
+
+///////////////////Creating FeatureCollection from a Single geometry
+var fromGeom = ee.FeatureCollection(ee.Geometry.Point(16.37, 48.225));
+print(fromGeom);
+
+///////////////////Creating FeatureCollection from Dataset /////////////
+var admin0 = ee.FeatureCollection('FAO/GAUL_SIMPLIFIED_500m/2015/level2');
+var Kenya = admin0.filter(ee.Filter.eq('ADM0_NAME', 'Kenya'));
+print(Kenya)
+Map.centerObject(Kenya)
+Map.addLayer(Kenya)
+
+// Display as default and with a custom color.
+Map.addLayer(Kenya, {}, 'default display');
+Map.centerObject(Kenya)
+// let's specify the .color property
+Map.addLayer(Kenya, {color: '006600'}, 'colored');
+
+//////////////////////Extracting FeatureCollection Metadata/////////////
+// Load watersheds from a data table.
+var Kenya = admin0.filter(ee.Filter.eq('ADM0_NAME', 'Kenya'));
+var sheds = ee.FeatureCollection('USGS/WBD/2017/HUC06')
+  // Filter to the continental US.
+  //.filterBounds(RoI)
+  .filterBounds(ee.Geometry.Rectangle(-127.18, 19.39, -62.75, 51.29))
+  // Convert 'areasqkm' property from string to number.
+  .map(function(feature){
+    var num = ee.Number.parse(feature.get('Areasqkm'));
+    return feature.set('Areasqkm', num);
+  });
+
+// Display the table and print its first element.
+Map.addLayer(sheds, {}, 'watersheds');
+print('First watershed', sheds.first());
+
+// Print the number of watersheds.
+print('Count:', sheds.size());
+
+// Print stats for an area property.
+print('Area statistic:', sheds.aggregate_stats('Areasqkm'));
+
+/////////////////////Filtering FeatureCollection///////////////
+// Load watersheds from a data table.
+var sheds = ee.FeatureCollection('USGS/WBD/2017/HUC06')
+//  Convert 'areasqkm' property from string to number.
+  .map(function(feature){
+    var num = ee.Number.parse(feature.get('areasqkm'));
+    return feature.set('areasqkm', num);
+  });
+
+// Define a region roughly covering the continental US.
+var continentalUS = ee.Geometry.Rectangle(-127.18, 19.39, -62.75, 51.29);
+
+// Filter the table geographically: only watersheds in the continental US.
+var filtered = sheds.filterBounds(continentalUS);
+
+// Check the number of watersheds after filtering for location.
+print('Count after filter:', filtered.size());
+
+// Filter to get only larger continental US watersheds.
+var largeSheds = filtered.filter(ee.Filter.gt('areasqkm', 25000));
+// Check the number of watersheds after filtering for size and location.
+print('Count after filtering by size:', largeSheds.size());
+
+////////////////Display Mapping over a FeatureCollection
+// This function computes the feature's geometry area and adds it as a property.
+var addArea = function(feature) {
+  return feature.set({areaHa: feature.geometry().area().divide(100 * 100)});
+};
+// Map the area getting function over the FeatureCollection.
+var areaAdded = sheds.map(addArea);
+// Print the first feature from the collection with the added property.
+print('Printing First Area Feature:', areaAdded.first());
