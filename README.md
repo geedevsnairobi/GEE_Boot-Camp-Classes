@@ -15,8 +15,7 @@
 - EE_Intermediate
   - Creating GEE Functions
   - Working with EE Inbuilt Functions
-  - Deep dive into exploring FeatureCollections
-  - Image Computation and Area Calculation
+  - [Exploring FeatureCollections](https://github.com/geedevsnairobi/GEE_Boot-Camp-Classes/blob/main/Feature%20Collection%20Exploration/Feature%20Collections%20and%20Area%20Calculation)
 - EE_Competence
   - Band Extraction, Calculation and Renaming
   - Adding Extenal data to Image Bands
