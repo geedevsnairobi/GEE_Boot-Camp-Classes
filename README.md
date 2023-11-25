@@ -1,5 +1,7 @@
 # GEE_Study_Jam 
  ------------------
+ ![GEE_Class Poster](https://github.com/geedevsnairobi/GEE_Study_Jam/assets/119797704/62cd5c93-dfe8-4a4f-ae71-dd16e241dc12)
+
 ## Table of Content
 ## Bootcamp Classes
 - Introduction
