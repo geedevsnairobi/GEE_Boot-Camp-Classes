@@ -13,9 +13,8 @@
   - [Image_Preprocessing](https://github.com/geedevsnairobi/GEE_Study_Jam/blob/main/imageCollection/imageCollection%20preprocessing)
   
 - EE_Intermediate
-  - Creating GEE Functions
-  - Working with EE Inbuilt Functions
-  - [Exploring FeatureCollections](https://github.com/geedevsnairobi/GEE_Boot-Camp-Classes/blob/main/Feature%20Collection%20Exploration/Feature%20Collections%20and%20Area%20Calculation)
+  - [Working with EE Inbuilt Functions](https://github.com/geedevsnairobi/GEE_Boot-Camp-Classes/tree/main/GEEFunctions)
+  - [Exploring FeatureCollections and Calculations](https://github.com/geedevsnairobi/GEE_Boot-Camp-Classes/blob/main/Feature%20Collection%20Exploration/Feature%20Collections%20and%20Area%20Calculation)
 - EE_Competence
   - Band Extraction, Calculation and Renaming
   - Adding Extenal data to Image Bands
